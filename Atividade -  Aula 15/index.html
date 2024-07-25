@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+
+    <script>
+        /* nome = prompt("Digite seu nome:");
+
+        alert(nome + " seja bem vindo ao JavaScript!");
+
+        n1 = prompt(nome + " Informe o 1° valor inteiro:");
+        n2 = prompt(nome + " Informe o 2° valor inteiro:");
+
+        soma = parseInt(n1) + parseInt(n2);
+
+        confirm(n1 + " + " + n2 + " = " + soma); */
+
+        function medidas(){
+            var w = window.innerWidth;
+            var h = window.innerHeight;
+
+            x = document.getElementById("pag");
+
+            x.innerHTML = "Largura: " + w + " Altura: " + h;
+        }
+    </script>
+
+</head>
+
+<body>
+    <p id="pag">Clique no botão</p>
+    <button type="button" onclick="medidas()">Clique aqui!</button>
+</body>
+</html>
